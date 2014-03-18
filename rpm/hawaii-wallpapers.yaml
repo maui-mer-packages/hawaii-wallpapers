@@ -2,12 +2,13 @@ Name: hawaii-wallpapers
 Summary: Wallpapers for the Hawaii desktop environment
 Version: 0.2.0
 Release: 1
-Group: Applications/Multimedia
+Group: System/GUI/Other
 URL: https://github.com/mauios/hawaii-wallpapers.git
 License: CC-BY-SA, CC-BY, CC0
 Sources:
-    - "%{name}-%{version}.tar.bz2"
+    - "%{name}-%{version}.tar.xz"
 Description: Collection of wallpapers shipped with the Hawaii desktop environment.
+BuildArch: noarch
 
 PkgBR:
     - cmake
@@ -17,13 +18,4 @@ ConfigOptions:
     - -DCMAKE_BUILD_TYPE=RelWithDebInfo 
 
 Files:
-    - "%{_datadir}/backgrounds/hawaii/16.jpg"
-    - "%{_datadir}/backgrounds/hawaii/3.jpg"
-    - "%{_datadir}/backgrounds/hawaii/Also_Calm.png"
-    - "%{_datadir}/backgrounds/hawaii/Arancio.jpg"
-    - "%{_datadir}/backgrounds/hawaii/Crane_Beach.jpg"
-    - "%{_datadir}/backgrounds/hawaii/Grass.jpg"
-    - "%{_datadir}/backgrounds/hawaii/Halfway_Gone.jpg"
-    - "%{_datadir}/backgrounds/hawaii/Hawaii-blue.jpg"
-    - "%{_datadir}/backgrounds/hawaii/Lighthouse_Cork.jpg"
-    - "%{_datadir}/backgrounds/hawaii/Springlight.jpg"
+    - "%{_datadir}/backgrounds/hawaii/"
