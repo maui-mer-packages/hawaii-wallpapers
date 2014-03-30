@@ -9,7 +9,7 @@ Name:       hawaii-wallpapers
 # << macros
 
 Summary:    Wallpapers for the Hawaii desktop environment
-Version:    0.2.0
+Version:    0.2.1
 Release:    1
 Group:      System/GUI/Other
 License:    CC-BY-SA, CC-BY, CC0
