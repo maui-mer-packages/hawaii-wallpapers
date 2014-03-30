@@ -53,6 +53,8 @@ cd upstream
 
 %files
 %defattr(-,root,root,-)
+%dir %{_datadir}/backgrounds/hawaii
 %{_datadir}/backgrounds/hawaii/
+%{_datadir}/hawaii/wallpapers/
 # >> files
 # << files
